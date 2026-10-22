@@ -11,7 +11,7 @@ completed as part of my cybersecurity learning.
 - Wireshark
 - Snort IDS
 - DVWA
-- Splunk
+
 
 ## Practical Topics
 1. Network Scanning using Nmap
@@ -20,8 +20,7 @@ completed as part of my cybersecurity learning.
 4. Intrusion Detection using Snort
 5. Web Application Security Testing using DVWA
 6. Static Malware Analysis
-7. Log Analysis using Splunk
-8. Metasploit Lab Practice
+7. Metasploit Lab Practice
 
 ## Learning Objectives
 - Understand network scanning
