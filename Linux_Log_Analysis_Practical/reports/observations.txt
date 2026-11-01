@@ -1,0 +1,18 @@
+LINUX LOG ANALYSIS PRACTICAL
+
+Objective:
+To inspect Linux system logs and identify authentication-related events.
+
+Tools:
+Kali Linux Terminal, journalctl, grep, last, who.
+
+Observations:
+1. The /var/log directory was inspected.
+2. The who command displayed the current logged-in user session.
+3. The last command displayed recent login session records.
+4. Authentication failure messages were found in older logs for lightdm and xfce4-screensaver-dialog.
+5. The SSH service query returned no entries in the captured output.
+6. Two matching entries appeared in today's filtered query. The visible entries were sudo command records generated while searching the logs, not confirmed failed login attempts.
+
+Conclusion:
+Linux logs help investigate authentication events and login activity. Further contextual analysis is required before classifying an event as suspicious.
